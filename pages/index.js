@@ -1,4 +1,5 @@
 import TopBar from "./components/TopBar";
+import NavBar from "./components/NavBar";
 
 export default function Home() {
   return (
@@ -8,7 +9,9 @@ export default function Home() {
           <TopBar />
         </div>
         <div className="w-100 flex-1 bg-red-400">Content Container</div>
-        <div className="w-100 h-14 bg-green-500">Nav Bar</div>
+        <div className="w-100 h-14 bg-blue-900">
+          <NavBar />
+        </div>
       </div>
     </>
   );
