@@ -2,14 +2,14 @@ import React from "react";
 
 function TopBar() {
   return (
-    <div className="flex px-5 py-3 items-center">
-      <div className="mr-4">
+    <div className="flex px-2 py-3 items-center">
+      <div className="w-2/12">
         <img
           src="https://pbs.twimg.com/profile_images/1236239360019902465/YGX5GnMP_bigger.jpg"
           className="rounded-full h-8 w-8"
         />
       </div>
-      <div className="flex justify-between px-2 flex-1 items-center">
+      <div className="flex justify-between flex-1 items-center">
         <h1 className="font-extrabold text-xl">Home</h1>
 
         <svg viewBox="0 0 24 24" className="h-8 w-8 text-blue-500">
