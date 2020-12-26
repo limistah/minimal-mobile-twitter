@@ -6,15 +6,22 @@ export default function Home() {
   return (
     <>
       <div className="container mx-auto flex flex-col h-full relative">
-        <div className="w-100 h-14 bg-purple-50">
+        <div className="w-100 h-14 fixed bg-background inset-x-0 top-0">
           <TopBar />
         </div>
-        <div className="w-100 flex-1 bg-red-400">
+        <div className="w-100 flex-1 py-14 bg-background">
+          <Tweet />
+          <Tweet />
+          <Tweet />
+          <Tweet />
+          <Tweet />
+          <Tweet />
+          <Tweet />
           <Tweet />
           <Tweet />
           <Tweet />
         </div>
-        <div className="w-100 h-14 bg-blue-900">
+        <div className="w-100 h-14 fixed bg-background inset-x-0 bottom-0">
           <NavBar />
         </div>
       </div>

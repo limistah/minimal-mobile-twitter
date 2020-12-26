@@ -2,7 +2,7 @@ import React from "react";
 
 function NavBar() {
   return (
-    <div className="grid grid-cols-4 items-center h-full">
+    <div className="grid grid-cols-4 items-center h-full border-t border-blue-500">
       <div className="flex items-center justify-center">
         <svg viewBox="0 0 24 24" className="h-7 w-7 fill-current text-gray-400">
           <g>
