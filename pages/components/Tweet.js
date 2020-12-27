@@ -35,15 +35,15 @@ function Tweet() {
         <div className="flex justify-between text-gray-400">
           <div className="flex">
             <ReplySVG />
-            <span className="ml-1">229</span>
+            <span className="ml-1 text-sm">229</span>
           </div>
           <div className="flex">
             <RetweetSVG />
-            <span className="ml-1">287</span>
+            <span className="ml-1 text-sm">287</span>
           </div>
           <div className="flex">
             <LikeSVG />
-            <span className="ml-1">796</span>
+            <span className="ml-1 text-sm">796</span>
           </div>
           <div className="flex">
             <ShareSVG />
